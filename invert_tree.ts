@@ -1,3 +1,5 @@
+import { TreeNode } from "./tree_node";
+
 function invertTree(root: TreeNode | null): TreeNode | null {
   if (root === null) return null;
   if (root.left === null && root.right === null) return root;
